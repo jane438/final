@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Volunteer | Pawsitive Rescue</title>
+        <link rel="stylesheet" href="pr_styles.css">
+    </head>
+    <header id="header-container">
+        <nav id="main-nav">
+        <table class="nav-list">
+            <tr>
+                <td><a href="pr_index.html" class="nav-link">Home</a></td>
+                <td><a href="pr_adopt.html" class="nav-link">Adopt</a></td>
+                <td><a href="pr_volunteer.html" class="nav-link">Volunteer</a></td>
+                <td><a href="pr_contact.html" class="nav-link">Contact Us</a></td>
+                <td><a href="pr_events.html" class="nav-link">Events</a></td>
+                <td><a href="pr_about.html" class="nav-link">About Us</a></td>
+            </tr>
+        </table>
+        </nav>
+            <img class="logo" src="cat images/logo_img.png" alt="Pawsitive Rescue Logo">
+            <h1 class="logo-title">Pawsitive Rescue</h1>      
+    </header>
+        <div id="volunteer-info">
+            <h1 class="volunteer-title">Volunteer Information</h1>
+            <p class="volunteer-description">If you're interested in helping what we do, please consider signing up for our volunteer program below.</p>
+        </div>
+<form action="/volunteer-signup.php" method="post" class="volunteer-form">
+    <fieldset>
+        <legend>Sign Up Here:</legend>
+            <ol>
+                <li><label for="firstlast">Name:</label>
+                <input type="text" name="fullname" id="firstlast"></li>
+                <li><label for="contact">Email/Phone:</label>
+                <input type="text" name="contact" id="contact"></li>
+                <li><label for="preferred-role">Preferred Role:</label>
+                <select name="preferred-role" id="preferred-role">
+                    <option value="blank">Select Option</option>
+                    <option value="animal-care">Animal Care</option>
+                    <option value="event-support">Event Support</option>
+                    <option value="office-help">Office Help</option>
+                </select></li>
+                <li><label for="availability">Availability:</label></li>
+                <input type="radio" name="availability" id="weekday" value="weekday">
+                <label for="weekday">Weekdays</label>
+                <input type="radio" name="availability" id="weekend" value="weekend">
+                <label for="weekend">Weekends</label>
+                <input type="radio" name="availability" id="both" value="both">
+                <label for="both">Both</label>
+                <li><label for="interests">Interests:</label>
+                    <input type="checkbox" name="interests" id="fostering" value="fostering">
+                    <label for="fostering">Fostering</label>
+                    <input type="checkbox" name="interests" id="fundraising" value="fundraising">
+                    <label for="fundraising">Fundraising</label>
+                    <input type="checkbox" name="interests" id="dog-walking" value="dog-walking">
+                    <label for="dog-walking">Dog Walking</label>
+                    <input type="checkbox" name="interests" id="cat-care" value="cat-care">
+                    <label for="cat-care">Cat Care</label>
+                    <li><label>Additional Information:</label></li>
+                <textarea rows="5" name="additional-info" id="additional-info" placeholder="Additional Information"></textarea></li>
+            </ol>
+        <input type="submit" value="Submit" class="button">
+    </fieldset>
+</form>
+
+
+    <footer id="footer-container">
+        <p class="contact-info">Email: contact@pawsitiverescue.org</p>
+        <p class="contact-info">Phone: (123) 456-7890</p>
+        <p class="contact-info">Address: 100 Rescue Lane, Pawsville, MO 64001</p>
+        <nav id="footer-nav">
+        <table class="nav-list-footer">
+            <tr>
+                <td><a href="pr_index.html" class="nav-link">Home</a></td>
+                <td><a href="pr_adopt.html" class="nav-link">Adopt</a></td>
+                <td><a href="pr_volunteer.html" class="nav-link">Volunteer</a></td>
+                <td><a href="pr_contact.html" class="nav-link">Contact Us</a></td>
+                <td><a href="pr_events.html" class="nav-link">Events</a></td>
+                <td><a href="pr_about.html" class="nav-link">About Us</a></td>
+            </tr>
+        </table>
+        </nav>
+        <div class="socials-bar">
+            <ul>
+            <li><img src="other images/Facebook_icon.svg.png" alt="facebook_icon" class="social-icon"></li>
+            <li><img src="other images/Instagram_icon.png" alt="instagram_icon" class="social-icon"></li>
+            <li><img src="other images/Logo_of_Twitter.svg.png" alt="twitter_icon" class="social-icon"></li>
+            </ul>
+        </div>
+        <p class="copyright">© 2026 Pawsitive Rescue. All rights reserved.</p>
+
+    </footer>
+</html>
